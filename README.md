@@ -2,6 +2,8 @@
 
 This is a collection of Leetcode questions and answers that I have to master, I'm not sure how long it will take and how many questions I have to do each day but 150 questions in a month would take 5 Questions a day. From my experience, each question takes me 1hr to understand, I dont think I have the time to spend 5hrs a day just on Leetcode. If I did 1 question a day it would take me 5 months, 2 questions would take me 2.5 months, 1.66 months 3 questions a day. 1.25 months to do 4 questions a day. 
 
+- [x] [Neetcode 150](https://neetcode.io/roadmap)
+
 ### Blind 75
 ## Array
 
