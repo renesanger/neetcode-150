@@ -1,4 +1,4 @@
-/* Best Solution - Solution 1 Sliding Window */
+/* Best Solution - Solution 1 Two Pointer */
 public class Solution {
     public bool IsPalindrome(string s) {
         int left = 0;
