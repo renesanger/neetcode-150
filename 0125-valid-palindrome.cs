@@ -7,11 +7,16 @@ public class Solution {
                 clean_str += str[i];
             }
         }
-
+        
         char[] c = clean_str.ToCharArray();
         Array.Reverse(c);
         string result_str = new string(c);
-
+        /* //alternative to reversing a string
+        string result_str = "";
+        for(int i=clean_str.Length-1; i>=0; i--){
+            result_str += clean_str[i];    
+        }
+        */
         return result_str == clean_str;
     }
 }
