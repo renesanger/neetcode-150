@@ -1,0 +1,19 @@
+public class Solution {
+    public bool IsValid(string s) {
+        Stack<char> myStack = new Stack<char>();
+        Dictionary<char,char> pairs = new Dictionary<char,char>{
+            ['}'] = '{',
+            [']'] = '[',
+            [')'] = '('
+        };
+        foreach (char c in s){
+            if(!pairs.ContainsKey(c)){
+                myStack.Push(c);
+            }    
+            else if(myStack.Count == 0 || myStack.Pop() != pairs[c]){
+                return false;
+            }
+        }
+        return myStack.Count == 0;
+    }
+}
